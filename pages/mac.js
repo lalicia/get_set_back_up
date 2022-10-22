@@ -7,6 +7,10 @@ function Mac() {
 
     return (
         <>
+            <Head>
+                <title>Get Set Back Up | MAC</title>
+            </Head>
+
             <Instructions 
                 pagefor={"MAC"}
                 gitname={"Homebrew (used to install Git)"}

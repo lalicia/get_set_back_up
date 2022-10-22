@@ -7,6 +7,10 @@ function Pc() {
     
     return (
         <>
+            <Head>
+                <title>Get Set Back Up | PC</title>
+            </Head>
+
             <Instructions 
                 pagefor={"PC"}
                 gitname={"Git Bash (the terminal shell where you use the command line)"}
