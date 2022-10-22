@@ -17,6 +17,8 @@ export default function Home() {
         <Link href="/pc"><button className="homepage-btn">PC</button></Link>
         <Link href="/mac"><button className="homepage-btn">MAC</button></Link>
       </div>
+
+      <Link href="/about"><a className="about-link">About</a></Link>
     </>
   )
 }
