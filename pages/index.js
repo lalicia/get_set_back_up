@@ -7,10 +7,16 @@ import logo from "../assets/logo-lm.JPG"
 
 export default function Home() {
   return (
-    <div>
-      <Image src={logo} alt="get set back up" />
-      <Link href="/pc"><button className="homepage-btn">PC</button></Link>
-      <Link href="/mac"><button className="homepage-btn">MAC</button></Link>
-    </div>
+    <>
+      <Head>
+        <title>Get Set Back Up | Home</title>
+      </Head>
+
+      <div>
+        <Image src={logo} alt="get set back up" />
+        <Link href="/pc"><button className="homepage-btn">PC</button></Link>
+        <Link href="/mac"><button className="homepage-btn">MAC</button></Link>
+      </div>
+    </>
   )
 }
