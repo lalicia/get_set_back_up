@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/future/image";
 
-import backbtn from "../assets/backbtn-lm.JPG";
+import backbtn from "../assets/backbtn.png";
 
 function BackButton() {
 

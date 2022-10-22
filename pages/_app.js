@@ -6,7 +6,7 @@ import Layout from "..//components/Layout.js";
 
 
 function MyApp({ Component, pageProps }) {
-
+  
   return (
     <ThemeProvider enableSystem={true} attribute="class">
     <Layout>
