@@ -42,9 +42,13 @@ export default function Home() {
           )
         }
 
-      <div>
-        <Image src={currentTheme === 'dark' ? logodm : logolm} alt="get set back up" />
-        <Link href="/pc"><button className="homepage-btn">PC</button></Link>
+      <div className="flex flex-initial flex-col justify-self-center justify-center m-40" >
+          <div className="flex flex-initial justify-self-center justify-center">
+          <Image 
+            src={currentTheme === 'dark' ? logodm : logolm} alt="get set back up"/>
+          </div>
+        
+        <button className="rounded-full">PC</button>
         <Link href="/mac"><button className="homepage-btn">MAC</button></Link>
       </div>
 

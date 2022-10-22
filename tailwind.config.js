@@ -8,6 +8,10 @@ module.exports = {
   ],
   darkMode: "class", 
   theme: {
+    maxWidth: {
+        '1/2': '50%',
+        '80p': '80%',
+    },
     extend: {},
   },
   variants: {
