@@ -49,12 +49,12 @@ export default function Home() {
           </div>
         
           <div className="flex flex-initial flex-row justify-around max-w-[60%] w-full mx-auto mt-[4rem] mb-[4rem]">
-            <Link href="/pc"><button className="font-bold tracking-wider px-6 py-2.5  bg-[#5271ff] uppercase rounded-full shadow-md hover:bg-indigo-500 hover:shadow-lg focus:bg-indigo-500 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-zinc-500 active:shadow-lg transition duration-150 ease-in-out">PC</button></Link>
-            <Link href="/mac"><button className="font-bold tracking-wider px-6 py-2.5  bg-[#5271ff] uppercase rounded-full shadow-md hover:bg-indigo-500 hover:shadow-lg focus:bg-indigo-500 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-zinc-500 active:shadow-lg transition duration-150 ease-in-out">MAC</button></Link>
+            <Link href="/pc"><button className="hover:scale-110 font-bold tracking-wider px-6 py-2.5  bg-[#5271ff] uppercase rounded-full shadow-md hover:bg-indigo-500 hover:shadow-lg focus:bg-indigo-500 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-zinc-500 active:shadow-lg transition duration-150 ease-in-out">PC</button></Link>
+            <Link href="/mac"><button className="hover:scale-110 font-bold tracking-wider px-6 py-2.5  bg-[#5271ff] uppercase rounded-full shadow-md hover:bg-indigo-500 hover:shadow-lg focus:bg-indigo-500 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-zinc-500 active:shadow-lg transition duration-150 ease-in-out">MAC</button></Link>
           </div>
       </div>
 
-      <Link href="/about"><a className="about-link font-bold">About</a></Link>
+      <Link href="/about"><a className="about-link font-bold hover:scale-110 hover:text-[#5271ff]">About</a></Link>
     </>
   )
 }

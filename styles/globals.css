@@ -80,15 +80,16 @@ select {
   cursor: pointer;
 }
 
-.backbtn {
+/* commented out as button was floating over text in position at corner of screen*
+/* .backbtn {
   position: fixed;
   right: 10%;
   bottom: 2rem;
-  cursor: pointer;
+  cursor: pointer; */
   /*works nice at size without specifying width and height, but just to make a little smaller */
-  width: 5rem;
+  /* width: 5rem;
   height: auto;
-}
+} */
 
 footer {
   width: 50%;
