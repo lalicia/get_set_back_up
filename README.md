@@ -6,8 +6,7 @@
 
 Homepage:
 
-<img src="./readme_images/dm_home.JPG" alt="homepage screenshot darkmode" width="500px" />
-<img src="./readme_images/lm_home.JPG" alt="homepage screenshot lightmode" width="500px" />
+<img src="./readme_images/dm_home.JPG" alt="homepage screenshot darkmode" width="300px" /> <img src="./readme_images/lm_home.JPG" alt="homepage screenshot lightmode" width="300px" />
 
 ## The Project
 
@@ -15,7 +14,7 @@ Having a deep-seated fear of my laptop failing, I'd been thinking for a while ho
 
 So I put together notes from instructions School of Code had provided at the beginning of the course, and I added more pointers that I thought would be useful - as well as consulting with [Katie Walters](https://github.com/KatieClarinet), my resident expert having suffered from laptop failure THREE times during the bootcamp. I compiled these into a document and then worked on some low-fidelity wireframes in Excalidraw.
 
-<img src="./readme_images/wireframes.JPG" alt="low-fidelity wireframes" width="750px" />
+<img src="./readme_images/wireframes.JPG" alt="low-fidelity wireframes" width="700px" />
 
 I decided that as I wanted to keep the presentation of the site very simple (it's a lot of text and I didn't want the UI to be otherwise fussy and add stress to the UX) I wasn't going to produce high-fidelity versions of the wireframes as they had enough direction for me to produce from. I did however, create logos and buttons using Canva, as though the app was to be minimal I wanted it to look cool and professional. The logo design also determined my colour theme and font choices, to keep everything very streamlined and easy on the eye.
 
