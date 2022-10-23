@@ -1,6 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200;300;400;500;600;700;800&display=swap');
+/* font-family: 'Oxanium', cursive; */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* for darkmode - customized bgs to match canva logos */
+@layer base {
+  body {
+    @apply bg-[#ffffff] text-gray-900 dark:bg-[#171717] dark:text-gray-100;
+    @apply min-h-screen;
+  }
+
+  ::selection {
+    @apply text-white bg-indigo-500;
+  }
+
+  
+  .btn{
+    @apply inline-block px-5 py-3 rounded-lg hover:bg-indigo-600 transition duration-300 shadow-lg bg-indigo-500 text-white capitalize tracking-wider font-semibold text-sm sm:text-xl focus:outline-none focus:ring-4 focus:ring-indigo-500 focus:ring-opacity-50 whitespace-nowrap
+  }
+}
+
+/* end of dark mode */
 
 *,
 *::before,
@@ -40,6 +62,11 @@ select {
 
 /************************************************* end of reset */
 
+.toggle {
+  position: absolute;
+  left: 10%;
+  top: 2rem;
+}
 
 .about-container {
   display: flex;
@@ -48,20 +75,21 @@ select {
 
 .about-link {
   position: fixed;
-  right: 1rem;
-  bottom: 1rem;
+  right: 10%;
+  bottom: 2rem;
   cursor: pointer;
 }
 
-.backbtn {
+/* commented out as button was floating over text in position at corner of screen*
+/* .backbtn {
   position: fixed;
-  right: 1rem;
-  bottom: 1rem;
-  cursor: pointer;
+  right: 10%;
+  bottom: 2rem;
+  cursor: pointer; */
   /*works nice at size without specifying width and height, but just to make a little smaller */
-  width: 5rem;
+  /* width: 5rem;
   height: auto;
-}
+} */
 
 footer {
   width: 50%;
