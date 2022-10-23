@@ -8,6 +8,9 @@ module.exports = {
   ],
   darkMode: "class", 
   theme: {
+    fontFamily: {
+      'fancy': ['Oxanium'],
+    },
     maxWidth: {
         '1/2': '50%',
         '80p': '80%',

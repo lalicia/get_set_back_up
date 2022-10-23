@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200;300;400;500;600;700;800&display=swap');
+/* font-family: 'Oxanium', cursive; */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -73,14 +76,14 @@ select {
 .about-link {
   position: fixed;
   right: 10%;
-  bottom: 1rem;
+  bottom: 2rem;
   cursor: pointer;
 }
 
 .backbtn {
   position: fixed;
   right: 10%;
-  bottom: 1rem;
+  bottom: 2rem;
   cursor: pointer;
   /*works nice at size without specifying width and height, but just to make a little smaller */
   width: 5rem;

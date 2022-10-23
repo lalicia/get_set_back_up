@@ -42,17 +42,19 @@ export default function Home() {
           )
         }
 
-      <div className="flex flex-initial flex-col justify-self-center justify-center m-40" >
-          <div className="flex flex-initial justify-self-center justify-center">
+      <div className="flex flex-initial flex-col justify-self-center justify-center mx-auto max-w-[80%] mt-[25vh]" >
+          <div className="flex justify-self-center justify-center">
           <Image 
             src={currentTheme === 'dark' ? logodm : logolm} alt="get set back up"/>
           </div>
         
-        <button className="rounded-full">PC</button>
-        <Link href="/mac"><button className="homepage-btn">MAC</button></Link>
+          <div className="flex flex-initial flex-row justify-around max-w-[60%] w-full mx-auto mt-[4rem] mb-[4rem]">
+            <Link href="/mac"><button className="font-bold tracking-wider px-6 py-2.5  bg-[#5271ff] uppercase rounded-full shadow-md hover:bg-indigo-500 hover:shadow-lg focus:bg-indigo-500 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-zinc-500 active:shadow-lg transition duration-150 ease-in-out">PC</button></Link>
+            <Link href="/mac"><button className="font-bold tracking-wider px-6 py-2.5  bg-[#5271ff] uppercase rounded-full shadow-md hover:bg-indigo-500 hover:shadow-lg focus:bg-indigo-500 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-zinc-500 active:shadow-lg transition duration-150 ease-in-out">MAC</button></Link>
+          </div>
       </div>
 
-      <Link href="/about"><a className="about-link">About</a></Link>
+      <Link href="/about"><a className="about-link font-bold">About</a></Link>
     </>
   )
 }
