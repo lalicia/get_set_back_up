@@ -1,34 +1,38 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Get Set Back Up
 
-## Getting Started
+[Visit the site](https://get-set-back-up.vercel.app/)
 
-First, run the development server:
+## Screenshots
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+Homepage:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<img src="./readme_images/gallery.JPG" alt="homepage screenshot darkmode" width="500px" />
+<img src="./readme_images/gallery.JPG" alt="homepage screenshot lightmode" width="500px" />
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## The Project
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Having a deep-seated fear of my laptop failing, I'd been thinking for a while how much it would suck trying to remember how to set the coding environment back up.  Individual projects, sure - clone from GitHub and npm i to my heart's content...but the actual nuts and bolts TO code?  I've only set that up once and no way do I remember how to do it again.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+So I put together notes from instructions School of Code had provided at the beginning of the course, and I added more pointers that I thought would be useful - as well as consulting with [Katie Walters](https://github.com/KatieClarinet), my resident expert having suffered from laptop failure THREE times during the bootcamp.  I compiled these into a document and then worked on some low-fidelity wireframes in Excalidraw.
 
-## Learn More
+<img src="./readme_images/excalidraw.JPG" alt="low-fidelity wireframes" width="750px" />
 
-To learn more about Next.js, take a look at the following resources:
+I decided that as I wanted to keep the presentation of the site very simple (it's a lot of text and I didn't want the UI to be otherwise fussy and add stress to the UX) I wasn't going to produce high-fidelity versions of the wireframes as they had enough direction for me to produce from.  I did however, create logos and buttons using Canva, as though the app was to be minimal I wanted it to look cool and professional.  The logo design also determined my colour theme and font choices, to keep everything very streamlined and easy on the eye.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## The Build
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+I decided to use Next.js along with Tailwind, as I've only used these techs once before when following a beginner project provided by Next.  I wanted to further explore the technologies and bed-in the principles by constructing my own project, and this was really useful in allowing me to explore features and grapple with functionality.
 
-## Deploy on Vercel
+The app is responsive and optimised for both desktop and mobile so that if people are trying to reinstall software they can access it away from their main computer if that's more helpful.  There's also a darkmode feature because hey, we're coders! :smile:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Tech
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Next, React, Tailwind, CSS, JavaScript, HTML, Vercel
+
+## Some Thoughts
+
+I learned quite a lot about certain features of Next, such as the Image import (Next not having img as I'm used to using), as well as the in-built functionality for an error page using 404.js.  Something I did struggle a lot with was implementing the darkmode feature; I needed access to the currentTheme state to display the correct version of the logo, and all implementations of darkmode I could find were abstracted away from other pages and components.  I tried to reposition this a number of times to be able to pass the state as a prop where I needed it, but was ultimately unsuccessful - so I moved the entire darkmode feature into the index.js where I needed access to the state.  I'd love to know how I could have done this, but ultimately this is a drawback of self-teching, in that sometimes you don't always know why something didn't work!
+
+Still, I was happy to be able to implement it finally, even if it was slightly differently!
+
+I also learned a lot about Tailwind and tried to use it for the bulk of all styling.  It felt pretty unnatural to begin with, but once I got the hang of passing arbitrary values and picked up some of the syntax, I did find it a lot nicer to use than I'd expect to from looking at the documentation beforehand.
